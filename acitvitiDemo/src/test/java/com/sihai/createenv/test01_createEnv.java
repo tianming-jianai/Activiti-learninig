@@ -32,14 +32,14 @@ public class test01_createEnv {
         // ProcessEngineConfiguration.DB_SCHEMA_UPDATE_CREATE_DROP(create-drop): 先创建、再删除.
         pec.setDatabaseSchemaUpdate("true");
         // 设置数据库驱动
-        pec.setJdbcDriver("com.mysql.jdbc.Driver");
+        pec.setJdbcDriver("com.mysql.cj.jdbc.Driver");
         // 设置jdbcURL
         pec.setJdbcUrl("jdbc:mysql://localhost:3306/activitiTest?useUnicode=true&characterEncoding=UTF-8");
         // 设置用户名
         pec.setJdbcUsername("root");
         // 设置密码
 
-        pec.setJdbcPassword("0911SIHAI");
+        pec.setJdbcPassword("m123");
 
 //        pec.setJdbcPassword("XXXX");
 
